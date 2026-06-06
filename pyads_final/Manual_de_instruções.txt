@@ -1,0 +1,9 @@
+1- adicionar o ficheiro tmc à pasta
+2- correr tmc_to_yaml.py com cd "localização da pasta"
+3- adicionar a(s) app(s) que pretendemos utilizar à pasta
+4- chamar "app.py" à app. se forem varias, juntar as apps no mesmo ficheiro e chamar "app.py". deve ter a estrutura apresentada no exemplo: 
+-> def app(data_in, data_out)
+-> chamar variaveis com o seu nome dentro do array correspondente (e.g. data_in["posx"]) // nomes das variáveis estão descritos no plcmap.yaml se houver alguma duvida ou dificuldade
+5- correr twincat
+6- correr tradutorpyads1
+7- great success
